@@ -48,27 +48,29 @@
 </script>
 
   <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+<meta property="og:title" content="tags">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;tags&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-11-26T13:03:24.935Z">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/">
+<link rel="canonical" href="http://yoursite.com/tags/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
+    isHome: false,
     isPost: false,
-    isPage: false,
+    isPage: true,
     isArchive: false
   };
 </script>
 
-  <title>Hexo</title>
+  <title>tags | Hexo
+  </title>
   
 
 
@@ -178,105 +180,45 @@
       <div class="main-inner">
         <div class="content-wrap">
           
+  
+  
 
           <div class="content">
             
 
   <div class="posts-expand">
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/26/%E6%B8%97%E9%80%8F%E7%AC%94%E8%AE%B0%20/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
+    
+    
+    
+    <div class="post-block" lang="en">
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/11/26/%E6%B8%97%E9%80%8F%E7%AC%94%E8%AE%B0%20/" class="post-title-link" itemprop="url">渗透笔记 </a>
-        </h1>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
+<h1 class="post-title" itemprop="name headline">tags
+</h1>
 
-              <time title="Created: 2019-11-26 17:33:40 / Modified: 17:34:01" itemprop="dateCreated datePublished" datetime="2019-11-26T17:33:40+08:00">2019-11-26</time>
-            </span>
+<div class="post-meta">
+  
 
-          
+</div>
 
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+</header>
 
       
-          <h2 id="渗透笔记（一）"><a href="#渗透笔记（一）" class="headerlink" title="渗透笔记（一）"></a>渗透笔记（一）</h2><p><strong>一、常见术语</strong></p>
-<ol>
-<li>脚本（asp,php,jsp）</li>
-<li>Html（css,js,html）</li>
-<li>HTTP协议</li>
-<li>CMS(B/S)  网站内容管理系统 企业网站: 医院教育:织梦 学校:  博客:wardpress</li>
-<li>MD5  不可逆的加密算法 </li>
-<li>肉鸡、抓鸡、跳板 被入侵地电脑、控制别人电脑、借刀杀人地刀(只能买鸡不能抓会犯法)</li>
-<li>一句话、小马、大马、webshell（网站后门）、提权、后门  小马拉大马 </li>
-<li>源码打包、脱裤 一般脱用户资料</li>
-<li>嗅探、rookit 数据进行分析</li>
-</ol>
-<p><strong>二、渗透测试地流程</strong></p>
-<ol>
-<li>明确目标 (目标要划分好 )</li>
-<li>信息收集 (重要地一部分,网站收集dns等) </li>
-<li>漏洞探测 (漏洞:sql注入 xss 文件上传 下载漏洞 文件包含 变量覆盖 代码执行等)</li>
-<li>漏洞验证 要验证poc （poc:漏洞验证）不验证exp(exp:漏洞利用)</li>
-<li>编写报告</li>
-<li>信息整理</li>
-<li>获取所需</li>
-<li>信息分析</li>
-</ol>
-<p><strong>三、学习环境地配置</strong></p>
-<ol>
-<li>虚拟机应用配置 网络配置 记得使用快照</li>
-<li>测试系统地安装 </li>
-<li>HTTP协议讲解<br>a.    超文本传输协议<br>b.    明文传输<br>c.    HTTP响应码：<br><img src="https://img-blog.csdnimg.cn/20191126172333832.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0NjkyMDQz,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>d.    http url 统一资源定位符<br>e.    http头 （HTTP头注入）——&gt;http头中安全隐患<br>f.     http请求方法 （从客服端传到服务器）<br> 常用的是POST GET<br>(1)GET<br>(2)POST<br>(3)OPTIONS<br>(4)PUT<br>(5)MOVE<br>(6)DELETE<br>(7)TRACE<ol start="4">
-<li>网站搭建配置<br>a.    phpstudy2014</li>
-</ol>
-</li>
-</ol>
-
+      
+      
+      <div class="post-body">
+          
+      </div>
+      
+      
       
     </div>
+    
 
     
     
     
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
   </div>
-
-  
-
 
 
           </div>
