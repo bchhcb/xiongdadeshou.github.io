@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-11-26T09:34:01.809Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>渗透笔记 </title>
+    <link href="http://yoursite.com/2019/11/26/%E6%B8%97%E9%80%8F%E7%AC%94%E8%AE%B0%20/"/>
+    <id>http://yoursite.com/2019/11/26/%E6%B8%97%E9%80%8F%E7%AC%94%E8%AE%B0%20/</id>
+    <published>2019-11-26T09:33:40.854Z</published>
+    <updated>2019-11-26T09:34:01.809Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="渗透笔记（一）"><a href="#渗透笔记（一）" class="headerlink" title="渗透笔记（一）"></a>渗透笔记（一）</h2><p><strong>一、常见术语</strong></p><ol><li>脚本（asp,php,jsp）</li><li>Html（css,js,html）</li><li>HTTP协议</li><li>CMS(B/S)  网站内容管理系统 企业网站: 医院教育:织梦 学校:  博客:wardpress</li><li>MD5  不可逆的加密算法 </li><li>肉鸡、抓鸡、跳板 被入侵地电脑、控制别人电脑、借刀杀人地刀(只能买鸡不能抓会犯法)</li><li>一句话、小马、大马、webshell（网站后门）、提权、后门  小马拉大马 </li><li>源码打包、脱裤 一般脱用户资料</li><li>嗅探、rookit 数据进行分析</li></ol><p><strong>二、渗透测试地流程</strong></p><ol><li>明确目标 (目标要划分好 )</li><li>信息收集 (重要地一部分,网站收集dns等) </li><li>漏洞探测 (漏洞:sql注入 xss 文件上传 下载漏洞 文件包含 变量覆盖 代码执行等)</li><li>漏洞验证 要验证poc （poc:漏洞验证）不验证exp(exp:漏洞利用)</li><li>编写报告</li><li>信息整理</li><li>获取所需</li><li>信息分析</li></ol><p><strong>三、学习环境地配置</strong></p><ol><li>虚拟机应用配置 网络配置 记得使用快照</li><li>测试系统地安装 </li><li>HTTP协议讲解<br>a.    超文本传输协议<br>b.    明文传输<br>c.    HTTP响应码：<br><img src="https://img-blog.csdnimg.cn/20191126172333832.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ0NjkyMDQz,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>d.    http url 统一资源定位符<br>e.    http头 （HTTP头注入）——&gt;http头中安全隐患<br>f.     http请求方法 （从客服端传到服务器）<br> 常用的是POST GET<br>(1)GET<br>(2)POST<br>(3)OPTIONS<br>(4)PUT<br>(5)MOVE<br>(6)DELETE<br>(7)TRACE<ol start="4"><li>网站搭建配置<br>a.    phpstudy2014</li></ol></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;渗透笔记（一）&quot;&gt;&lt;a href=&quot;#渗透笔记（一）&quot; class=&quot;headerlink&quot; title=&quot;渗透笔记（一）&quot;&gt;&lt;/a&gt;渗透笔记（一）&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;一、常见术语&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;脚本（asp,php,js
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
