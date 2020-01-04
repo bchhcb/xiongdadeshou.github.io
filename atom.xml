@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-26T09:34:01.809Z</updated>
+  <updated>2020-01-04T06:49:40.370Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019总结</title>
+    <link href="http://yoursite.com/2020/01/04/2019%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2020/01/04/2019%E6%80%BB%E7%BB%93/</id>
+    <published>2020-01-04T06:54:34.966Z</published>
+    <updated>2020-01-04T06:49:40.370Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="2019年总结"><a href="#2019年总结" class="headerlink" title="2019年总结"></a>2019年总结</h1><h2 id="我的状态"><a href="#我的状态" class="headerlink" title="我的状态"></a>我的状态</h2><p>这个学期都在摸鱼状态，没有很多的时间花在学习技术的方面，说起来还是太菜了。现在对渗透方面的知道仅仅处于小白的阶段，一九还需要自己去学习和挖掘。</p><h2 id="我的完成度"><a href="#我的完成度" class="headerlink" title="我的完成度"></a>我的完成度</h2><p>一、前期还能坚持做CTF的题目，后期都没做过了。。。<br>二、能把白帽子web安全这本书看完了，但是还有很多疑惑以及一些操作没能实现。<br>三、编程能力有待提高。</p><h2 id="我的打算"><a href="#我的打算" class="headerlink" title="我的打算"></a>我的打算</h2><p>一、在这个寒假尽量提升一下我的编程能力吧，不能那么放纵了。<br>二、我也应该在寒假这段时间里多学多实战一下渗透，不能只看不做。<br>三、学习python、数据库等。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;2019年总结&quot;&gt;&lt;a href=&quot;#2019年总结&quot; class=&quot;headerlink&quot; title=&quot;2019年总结&quot;&gt;&lt;/a&gt;2019年总结&lt;/h1&gt;&lt;h2 id=&quot;我的状态&quot;&gt;&lt;a href=&quot;#我的状态&quot; class=&quot;headerlink&quot; titl
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>渗透笔记 </title>
